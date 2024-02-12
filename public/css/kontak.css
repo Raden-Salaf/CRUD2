@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url("../image/persebaya.webp");
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px; /* Menambahkan jarak antar container */
+}
+
+header {
+    background-color: #39a2ae;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Menambahkan jarak antar container */
+}
+
+nav {
+    background-color: #40b0b5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Menambahkan jarak antar container */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #39a2ae;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Menambahkan jarak antar container */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #39a2ae;
+    color: #fff;
+    border-radius: 10px;
+}
